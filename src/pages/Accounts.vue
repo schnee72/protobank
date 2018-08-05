@@ -9,7 +9,7 @@
 export default {
   name: "Accounts",
   data() {
-    return { something: "There are accounts." };
+    return { something: "there are accounts" };
   },
   mounted() {
     console.log("accounts!");

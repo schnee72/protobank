@@ -11,7 +11,7 @@
             v-model="password"
             v-on:keyup.enter="login"
             placeholder=" -- password -- " /></p>
-        <p><button v-on:click="login">Login</button></p>
+        <p><button v-on:click="login">login</button></p>
         <p class="error">{{ errorMessage }}</p>
       </div>
     </transition>
@@ -43,7 +43,7 @@ export default {
         this.authenticate();
         this.$router.push("/");
       } else {
-        this.errorMessage = "User name and/or password are incorrect.";
+        this.errorMessage = "user name and/or password are incorrect";
       }
     }
   }

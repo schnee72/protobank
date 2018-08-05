@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Prototype banking application",
   "main": "src/index.js",
-  "repository": "https://schnee72.visualstudio.com/_git/protobank",
+  "repository": "https://github.com/schnee72/protobank.git",
   "author": "Dustin Schnee <schnee72@gmail.com>",
   "license": "MIT",
   "scripts": {

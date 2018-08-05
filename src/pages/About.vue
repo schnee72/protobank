@@ -9,7 +9,7 @@
 export default {
   name: "About",
   data() {
-    return { something: "This is a prototype banking app." };
+    return { something: "this is a prototype banking app" };
   },
   mounted() {
     console.log("about!");

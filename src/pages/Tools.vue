@@ -9,7 +9,7 @@
 export default {
   name: "Tools",
   data() {
-    return { something: "Tools are helpful." };
+    return { something: "tools are helpful." };
   },
   mounted() {
     console.log("tools!");

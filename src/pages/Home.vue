@@ -9,7 +9,7 @@
 export default {
   name: "Home",
   data() {
-    return { something: "This is the home of foobank." };
+    return { something: "this is the home of protobank" };
   },
   mounted() {
     console.log("Home");

@@ -10,7 +10,7 @@
 export default {
   name: "NotFound",
   data() {
-    return { something: "Not found." };
+    return { something: "not found" };
   },
   mounted() {
     console.log("not found!");

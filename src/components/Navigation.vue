@@ -1,11 +1,11 @@
 <template>
   <nav>
       <div v-bind:class="{ showTheMenu: showMenu }">
-        <router-link to="/">Home</router-link>
-        <router-link to="/accounts">Accounts</router-link>
-        <router-link to="/tools">Tools</router-link>
-        <router-link to="/about">About</router-link>
-        <router-link to="/contact">Contact</router-link>
+        <router-link to="/">home</router-link>
+        <router-link to="/accounts">accounts</router-link>
+        <router-link to="/tools">tools</router-link>
+        <router-link to="/about">about</router-link>
+        <router-link to="/contact">contact</router-link>
         <a href="javascript:void(0);" class="icon" v-on:click="showMenu = !showMenu">
           <div></div>
           <div></div>
@@ -37,8 +37,14 @@ nav {
     text-decoration: none;
     padding: 16px 14px;
 
-    &:hover, &:active {
+    &:hover {
       background: #272e30;
+    }
+
+    @media (hover: none) {
+      &:active {
+        background: #272e30;
+      }
     }
 
     @media screen and (max-width: 600px) {
