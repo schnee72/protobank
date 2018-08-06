@@ -35,17 +35,7 @@ nav {
     color: #caf6f0;
     text-align: center;
     text-decoration: none;
-    padding: 16px 14px;
-
-    &:hover {
-      background: #272e30;
-    }
-
-    @media (hover: none) {
-      &:active {
-        background: #272e30;
-      }
-    }
+    padding: 17px 14px;
 
     @media screen and (max-width: 600px) {
       &:not(:first-child) {

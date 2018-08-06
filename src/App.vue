@@ -4,7 +4,7 @@
       <navigation v-if="this.$store.state.isAuthenticated" />
     </transition>
     <div id="main">
-      <h1>Protobank</h1>
+      <h1>protobank</h1>
       <transition name="route-fade">
         <router-view />
       </transition>
